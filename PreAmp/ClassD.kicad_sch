@@ -5,7 +5,7 @@
 	(uuid "fdc31853-4cdf-4258-8ce4-3d650134335c")
 	(paper "User" 274.32 162.56)
 	(title_block
-		(title "ENGG220 Final Project - Victor Rosales")
+		(title "PreAmplifer - Victor Rosales")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
@@ -2858,6 +2858,16 @@
 		)
 		(uuid "3c49c916-2701-42e4-ab3d-d5a8440a1cd9")
 	)
+	(text "Fc~23.4khz"
+		(exclude_from_sim no)
+		(at 129.032 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45a39d3f-1e2c-43d2-9508-3bb6f8b7895a")
+	)
 	(text "Reference Voltage"
 		(exclude_from_sim no)
 		(at 90.424 28.194 0)
@@ -2868,12 +2878,12 @@
 		)
 		(uuid "4c17a60f-53f0-4d1e-97f1-2b8182ab36fd")
 	)
-	(text "1uF"
+	(text "330nF"
 		(exclude_from_sim no)
-		(at 48.26 100.33 0)
+		(at 48.514 101.346 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 		)
 		(uuid "5b4bf668-3b43-4c93-8bc8-ae2cb852a5bf")
@@ -2956,7 +2966,7 @@
 		)
 		(uuid "958be112-3fab-4992-b8de-11bb2d7c64e5")
 	)
-	(text "1nF"
+	(text "680pF"
 		(exclude_from_sim no)
 		(at 118.364 81.28 0)
 		(effects
@@ -2978,6 +2988,16 @@
 			(justify left)
 		)
 		(uuid "a008932c-d77f-48f0-a2e3-b211f9727327")
+	)
+	(text "Fc~45Hz\nMidBase"
+		(exclude_from_sim no)
+		(at 50.8 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af3fb89f-b3a6-43ba-a3d9-4164a9200540")
 	)
 	(text "10k"
 		(exclude_from_sim no)
@@ -3001,7 +3021,7 @@
 		)
 		(uuid "c49e9f40-9b1e-4f33-9acd-7ba457483360")
 	)
-	(text "8.2k"
+	(text "10k"
 		(exclude_from_sim no)
 		(at 118.364 90.424 0)
 		(effects
@@ -3041,7 +3061,7 @@
 		)
 		(uuid "e634783a-0a42-402a-834e-74738354c1f2")
 	)
-	(text "8.2k"
+	(text "10k"
 		(exclude_from_sim no)
 		(at 96.774 99.314 0)
 		(effects
@@ -3061,12 +3081,12 @@
 		)
 		(uuid "f26795f1-5fc9-4eb3-b8fb-d7da26859861")
 	)
-	(text "1uF-Unp"
+	(text "330nF"
 		(exclude_from_sim no)
-		(at 103.632 98.298 0)
+		(at 104.394 98.298 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 		)
 		(uuid "f2c2cb3c-96ba-4dc7-9991-c75ecc1e54a0")
@@ -3080,6 +3100,16 @@
 			)
 		)
 		(uuid "f2f6734d-1f78-4576-b4c9-e2571aa5d314")
+	)
+	(text "Fc~45Hz\nMidBase"
+		(exclude_from_sim no)
+		(at 99.568 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdbc3686-d965-45bb-961a-024f7cc8cfdb")
 	)
 	(junction
 		(at 106.68 38.1)
@@ -6185,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "10k"
 			(at 96.52 97.79 90)
 			(effects
 				(font
@@ -6386,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "10k"
 			(at 118.11 88.9 90)
 			(effects
 				(font
@@ -6520,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "680pF"
 			(at 118.11 81.026 90)
 			(effects
 				(font
@@ -7219,7 +7249,7 @@
 		(dnp no)
 		(uuid "6a5f4ca7-5c1f-4733-9c76-3478ac8d85ee")
 		(property "Reference" "C52"
-			(at 48.26 107.95 90)
+			(at 48.26 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL494"
+		(property "Value" "TL594"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -10584,7 +10614,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4829bb6-d16b-4e7a-a502-a8587631b106")
 		(property "Reference" "U51"
 			(at 58.42 30.48 0)
@@ -10594,11 +10623,11 @@
 				)
 			)
 		)
-		(property "Value" "Positive Voltage Regulator, 9V, 4-Pin SOT-89, Tape and Reel"
-			(at 58.42 33.02 0)
+		(property "Value" "Voltage Regulator-9V-SOT-89"
+			(at 56.896 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
