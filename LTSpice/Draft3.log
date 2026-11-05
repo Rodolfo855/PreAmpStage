@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\Victor Rosales\Documents\PreAmpStage\LTSpice\Draft3.net
-Start Time: Thu Nov  5 00:15:49 2026
+Start Time: Thu Nov  5 00:24:55 2026
 solver = Normal
 Maximum thread count: 32
 tnom = 27
@@ -10,7 +10,7 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.066 seconds.
+Total elapsed time: 0.100 seconds.
 
 Files loaded:
 C:\Users\Victor Rosales\Documents\PreAmpStage\LTSpice\Draft3.net
