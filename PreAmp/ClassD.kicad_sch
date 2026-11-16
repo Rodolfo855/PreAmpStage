@@ -3694,6 +3694,16 @@
 		)
 		(uuid "63679a0b-51d8-4019-b1fb-19171fb0874a")
 	)
+	(text "VREFLOW\n0.2V-0.8V"
+		(exclude_from_sim no)
+		(at 54.61 211.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "725fd714-864a-461e-8f9c-71947f4a021e")
+	)
 	(text "10k"
 		(exclude_from_sim no)
 		(at 55.626 101.854 0)
@@ -3747,6 +3757,16 @@
 			)
 		)
 		(uuid "9aaf170f-5af4-4201-9968-ae2506c3da48")
+	)
+	(text "VREFLOW\n2.7V-3.9V"
+		(exclude_from_sim no)
+		(at 54.356 203.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bccecfc-e666-444a-9e6a-92fab3627ce0")
 	)
 	(text "* RV2 Should be adjusted to 50% duty cycle\nin either PWM or !PWM when no audio is connected"
 		(exclude_from_sim no)
@@ -5092,6 +5112,16 @@
 			(type default)
 		)
 		(uuid "61af10c6-50aa-408b-abb6-ed353482ea75")
+	)
+	(wire
+		(pts
+			(xy 82.55 185.42) (xy 82.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b9c64e-18db-408b-9930-af5cabc4e51f")
 	)
 	(wire
 		(pts
@@ -10633,7 +10663,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 184.15 0)
+		(at 82.55 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10641,7 +10671,7 @@
 		(dnp no)
 		(uuid "6b38587a-e9c4-4d45-8489-e42b99fb5b91")
 		(property "Reference" "#PWR092"
-			(at 82.55 190.5 0)
+			(at 82.55 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 185.928 0)
+			(at 78.74 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 184.15 0)
+			(at 82.55 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +10697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 184.15 0)
+			(at 82.55 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 184.15 0)
+			(at 82.55 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
