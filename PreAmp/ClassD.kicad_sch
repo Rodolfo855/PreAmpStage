@@ -9545,6 +9545,28 @@
 			)
 		)
 	)
+	(global_label "SAWFREQ"
+		(shape output)
+		(at 183.388 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "36264a7b-3071-4d36-be52-ef6edad44876")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREFHIGH"
 		(shape output)
 		(at 36.83 203.2 0)

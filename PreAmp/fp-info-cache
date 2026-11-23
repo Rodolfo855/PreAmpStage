@@ -1,4 +1,4 @@
-26785430961375229
+26806926813169536
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106372,6 +106372,13 @@ Varistor VF
 2
 2
 lcsc_footprints
+C2297_LED0805-R-RD
+0805
+
+0
+2
+2
+lcsc_footprints
 C6987_SOIC-8_L4_9-W3_9-P1_27-LS6_0-BL
 
 
@@ -106386,6 +106393,13 @@ Positive Voltage Regulator, 9V, 4-Pin SOT-89, Tape and Reel
 3
 3
 lcsc_footprints
+C76857_IND-SMD_L7_1-W6_5
+
+
+0
+2
+2
+lcsc_footprints
 C84256_LED0805-RD
 LED
 
@@ -106393,12 +106407,54 @@ LED
 2
 2
 lcsc_footprints
+C86206_TO-263-2_L10_0-W9_2-P5_08-LS15_3-TL-CW
+
+
+0
+3
+3
+lcsc_footprints
+C157346_SOIC-16_L9_9-W3_9-P1_27-LS6_0-BL
+
+
+0
+16
+16
+lcsc_footprints
+C165129_VQFN-HR_L2_5-W2_0-P0_50-TL-EP
+
+
+0
+11
+11
+lcsc_footprints
 C262905_D2PAK_L10_0-W9_0-P2_54-LS15_0-BR
 
 
 0
 3
 3
+lcsc_footprints
+C437199_SMA_L4_4-W2_6-LS5_0-RD
+
+
+0
+2
+2
+lcsc_footprints
+C970725_ESSOP-10_L4_9-W3_9-P1_0-LS6_0-TL-EP
+
+
+0
+11
+11
+lcsc_footprints
+C1850241_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL
+
+
+0
+8
+8
 lcsc_footprints
 C2865059_SOIC-8_L4_9-W3_9-P1_27-LS6_0-BL
 
@@ -106414,9 +106470,37 @@ C2867809_VSSOP-8_L3_0-W3_0-P0_65-LS4_9-BL
 8
 8
 lcsc_footprints
+C2988369_USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+
+
+0
+18
+16
+lcsc_footprints
+C3151650_USB-C-SMD_TYPE-C-6P
+
+
+0
+10
+8
+lcsc_footprints
 C4991936_AUDIO-TH_SJ1-3525NG
 
 
 0
 10
 5
+lcsc_footprints
+C5277086_TEST-TH_BD2_54-P1_4_RED
+
+
+0
+1
+1
+lcsc_footprints
+C55109575_PDIP-18_L22_9-W6_4-P2_54-LS7_9-BL
+
+
+0
+18
+18
