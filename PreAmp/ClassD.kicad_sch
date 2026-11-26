@@ -4907,6 +4907,18 @@
 		)
 		(uuid "d980fe27-bcd3-4d42-b1d7-dd4186078abd")
 	)
+	(text "Hard Clip Indicator"
+		(exclude_from_sim no)
+		(at 88.392 208.026 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "de14c3da-e86a-4890-a220-8c575a5473b3")
+	)
 	(text "10k"
 		(exclude_from_sim no)
 		(at 123.19 45.466 0)
@@ -5210,6 +5222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be065a0-8db0-416d-bf33-0f5751c0a835")
+	)
+	(junction
+		(at 71.12 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a395d454-c6e5-438a-8618-440ca0d5cee8")
 	)
 	(junction
 		(at 299.212 50.038)
@@ -5595,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 176.53) (xy 71.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f72df9d-3acd-4ebd-9101-f6dc31dc128e")
+	)
+	(wire
+		(pts
 			(xy 137.16 184.15) (xy 133.35 184.15)
 		)
 		(stroke
@@ -5795,7 +5823,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 176.53) (xy 72.39 176.53)
+			(xy 71.12 176.53) (xy 72.39 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8392,6 +8420,16 @@
 			(type default)
 		)
 		(uuid "c536006f-40fe-4a8f-8813-a28db0544672")
+	)
+	(wire
+		(pts
+			(xy 71.12 176.53) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cd52f0-b04c-4fdd-8a51-1af0e7d50ee4")
 	)
 	(wire
 		(pts
@@ -14549,7 +14587,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 123.698 208.2799 90)
 			(effects
 				(font
