@@ -4319,7 +4319,7 @@
 				)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "9V"
 			(at 133.858 162.814 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "5V"
 			(at 81.28 147.32 0)
 			(effects
 				(font
